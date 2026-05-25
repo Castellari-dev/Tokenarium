@@ -1,0 +1,1 @@
+AI "code" Bulshit concept, I'll be working on this one later
