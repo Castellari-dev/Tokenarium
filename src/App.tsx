@@ -810,7 +810,7 @@ function PlayerPanel({
 
           {activePlayerId && activePlayerId !== player.id && (
             <button onClick={onAttack} className="attack-btn" type="button">
-              ⚔️ Atacar
+              Atacar
             </button>
           )}
 
@@ -830,7 +830,7 @@ function PlayerPanel({
                 cursor: "pointer",
               }}
             >
-              ✨ Turno extra
+              Turno extra
             </button>
           )}
         </div>
@@ -912,7 +912,7 @@ function TurnBar({
 
         {players.length > 1 && (
           <button onClick={onStartGame} className="start-game-btn" type="button">
-            🎲 Rolar iniciativa e iniciar
+           Rolar iniciativa e iniciar
           </button>
         )}
       </div>
