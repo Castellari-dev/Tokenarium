@@ -2014,3 +2014,30 @@
     min-width: 200px;
   }
 }
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+
+.home-footer {
+  margin-top: auto;
+  padding: 14px 24px;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.45);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(15, 23, 42, 0.5);
+}
+
+.home-footer-link {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.35);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.home-footer-link:hover {
+  color: #a78bfa;
+  border-bottom-color: #a78bfa;
+}

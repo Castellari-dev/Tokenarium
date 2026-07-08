@@ -1578,6 +1578,19 @@ export default function Home() {
         </>
       )}
 
+      <footer className="home-footer">
+        Powered by{" "}
+        <a
+          href="https://github.com/Castellari-dev"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="home-footer-link"
+        >
+          Castelari
+        </a>{" "}
+        arcane powers
+      </footer>
+
       <CardPreview card={selectedCard} onClose={() => setSelectedCard(null)} />
 
       <ResetBoardModal
